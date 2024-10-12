@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ambulance"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#00C1DA"
+    >
+
+    <!--        android:contentDescription="@string/ambulance_image"-->
+<!--        />-->
+
+    <ImageView
+        android:id="@+id/ambulanceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ambulance_image" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Ambulance"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/ambulanceImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/callAmbulanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Nearest Ambulance"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#1AF323"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_below="@id/titleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Ambulance"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+
+<!--&lt;!&ndash;    <GridView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:visibility="visible"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/recyclerview1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:numColumns="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:scaleType="fitXY"&ndash;&gt;-->
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <ProgressBar&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/simpleProgressBar"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_centerInParent="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="center" />&ndash;&gt;-->
+
+<!--    <Button-->
+<!--        android:id="@+id/callAmbulanceButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Call Ambulance"-->
+<!--        android:layout_centerInParent="true"/>-->
+
+
+<!--</RelativeLayout>-->

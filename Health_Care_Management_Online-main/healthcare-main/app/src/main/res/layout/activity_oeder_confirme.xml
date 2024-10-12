@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".OederConfirme"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/regester"-->
+<!--    android:layout_margin="20dp"-->
+<!--    >-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="3dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Full payment to the mentioned number or order confirmation with delivery charge only"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textStyle="italic"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="You can also confirm the order by phone:"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="14sp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="normal" />&ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="46dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:paddingTop="15dp"-->
+<!--                android:layout_marginLeft="41dp"-->
+<!--                android:text="Order Details"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="normal" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/pymnt_number"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="21dp"-->
+<!--                android:text="Helpline No :1243"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="normal"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:clickable="true"-->
+<!--                android:foreground="?attr/selectableItemBackground"-->
+
+
+<!--                />-->
+
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/number_copy3"-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/dial_icon_01"-->
+<!--                android:padding="12dp"-->
+<!--                android:clickable="true"-->
+<!--                android:foreground="?attr/selectableItemBackground"-->
+
+<!--                />-->
+
+
+
+
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Enter Product Name:"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="normal" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="35dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/prudct_code1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ffffff"-->
+<!--            android:hint="If the product is more than one, write with a comma"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="12sp" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:text="Name"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="normal" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="35dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/cstmr_name1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ffffff"-->
+<!--            android:hint="Enter your name"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="12sp" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:text="Phone Number"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="normal" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="35dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/c_phone1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ffffff"-->
+<!--            android:hint="71********"-->
+<!--            android:inputType="numberDecimal"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="12sp" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:text="Adress"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="normal" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/adress1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ffffff"-->
+<!--            android:hint="Specify your correct address"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="12sp" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:text="Transaction id"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="normal" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="35dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/trnx_id1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ffffff"-->
+<!--            android:hint="Enter the transaction ID after the payment"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="12sp" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cancel_button1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:backgroundTint="@color/thankYou_title"-->
+<!--            android:text="cancel"-->
+<!--            android:textColor="@color/white" />-->
+
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/confirm_button1"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="70dp"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:backgroundTint="@color/thankYou_title"-->
+<!--            android:text="Order Confirmed"-->
+<!--            android:textColor="@color/white" />-->
+
+
+<!--    </LinearLayout>-->
+
+
+<!--</LinearLayout>-->
